@@ -1,3 +1,5 @@
-const String newsApiService = ;
+const String newsBaseUrl = ;
+
+
 
 // lägg till rätt api
