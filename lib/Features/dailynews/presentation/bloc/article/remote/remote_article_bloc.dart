@@ -7,10 +7,7 @@ class RemoteArticleBloc extends Bloc<RemoteArticleEvent, RemoteArticleState> {
     on<GetArticle>(onGetArticle);
   }
 
-  Future<void> onGetArticle(
-    GetArticle event,
-    Emitter<RemoteArticleState> emit,
-  ) async {
+  void onGetArticle(GetArticle event, Emitter<RemoteArticleState> emit) async {
     // TODO: Implement your logic here
     // Example: emit(RemoteArticlesLoaded(articles: []));
   }
