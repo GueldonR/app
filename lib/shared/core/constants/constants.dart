@@ -1,4 +1,4 @@
-const String newsBaseUrl = 'https://newsapi.org/v2';
+const String newsBaseUrl = 'https://newsapi.org/v2/';
 
 
 

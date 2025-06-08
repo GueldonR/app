@@ -1,10 +1,7 @@
 // gör om hela filen
-import 'package:app/Features/dailynews/Data/models/article_model.dart';
-import 'package:retrofit/retrofit.dart';
-import 'package:app/shared/core/constants/constants.dart';
 import 'package:dio/dio.dart';
-
 import 'package:retrofit/retrofit.dart';
+import 'package:app/Features/dailynews/Data/models/article_model.dart';
 import 'package:app/shared/core/constants/constants.dart';
 
 part 'news_api_service.g.dart';
